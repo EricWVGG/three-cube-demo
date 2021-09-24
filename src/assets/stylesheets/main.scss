@@ -1,0 +1,101 @@
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+html.no-js .loadable {
+  opacity: 1 !important;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+  font-family: Grot10, verdana, sans-serif;
+
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  * {
+    line-height: 1.1em;
+  }
+  
+  font-size: 2.4rem;
+
+  @media only screen and (min-width: 1024px) {
+    font-size: 3.6rem;
+  }
+
+  @media only screen and (min-width: 1440px) {
+    font-size: 5.0rem;
+  }
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+  font-size: inherit;
+  font-weight: normal;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.2s ease-in-out;
+  will-change: color;
+  font: inherit;
+  color: #999;
+  transition: background-color 0.2s ease-in-out;
+  background-color: rgba(204, 255, 0, 0);
+}
+
+blockquote {
+  font-weight: normal;
+}
+
+cite {
+  font-style: normal;
+}
+
+strong,
+strong em,
+strong del {
+  font-weight: 600;
+}
+
+hr {
+  background-color: rgba(37, 35, 33, 0.64);
+  box-sizing: content-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+}
+.clearfix:after {clear: both;}
+.clearfix {zoom: 1;}
+
+p {
+  margin-bottom: 0.5em;
+}
+p:last-of-type {
+  margin-bottom: 0;
+}
+
+::-moz-selection {background: rgba(173, 255, 0, 1); color: rgba(250,250,250,1); text-shadow: none;}
+::selection      {background: rgba(173, 255, 0, 1); color: rgba(250,250,250,1); text-shadow: none;}
+
+
+.tl-edges {
+  overflow-x: visible !important;
+}
+
+.tl-wrapper {
+  float: none;
+}
